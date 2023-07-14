@@ -18,9 +18,9 @@
     position: relative;
     text-align: center;
     top: 20%;
-    color: #fff;
+    color: #eae8e8;
 }
-.main h1{
+.main h3{
     font-size: 4rem;
     text-transform: uppercase;
     font-family: monospace;
@@ -38,7 +38,7 @@
 }
 h2{
     font-size: 3em;
-    background-color: #fbfbfb;
+    background-color: #ffffff;
     font-family: monospace;
     text-transform: uppercase;
     text-align: center;
@@ -65,4 +65,45 @@ h2{
     top: 50%;
     transform: translate(0,-50%);
     color: #000;
+}
+.section {
+    background-color: #eae8e8;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: monospace;
+}
+.submit {
+    background-color: #61b9b3;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+h1 {
+    font-size: 15pt;
+    color: #61b9b3;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #000000;
+    padding: 10px;
 }
