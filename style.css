@@ -118,3 +118,19 @@ h4 span {
     border: 4px dashed #000000;
     padding: 10px;
 }
+.slider{
+    width: 360px;
+    height: 360px;
+    border: 2px solid black;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.slider-line{
+    height: 360px;
+    width: 1440px;
+    background-color: orangered;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
