@@ -139,4 +139,8 @@ h4 span {
 .boxjs{
     text-align: center;
     font-family: monospace;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
 }
