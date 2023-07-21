@@ -124,6 +124,8 @@ h4 span {
     border: 2px solid black;
     margin: 30px auto;
     overflow: hidden;
+    text-align: center;
+
 }
 .slider-line{
     height: 360px;
