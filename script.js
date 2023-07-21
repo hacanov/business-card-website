@@ -9,9 +9,9 @@ document.querySelector('.slider-next').addEventListener('click', function(){
 });
 
 document.querySelector('.slider-prev').addEventListener('click', function(){
-    offset = offset - 360;//offset += 360;
-    if (offset > 0){
-        offset = 1080;
+    offset = offset - 360;//offset -= 360;
+    if (offset > -1080){
+        offset = 0;
     }
     sliderLine.style.left = -offset + 'px';
 });
