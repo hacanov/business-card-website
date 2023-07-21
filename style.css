@@ -136,11 +136,7 @@ h4 span {
     left: 0;
     transition: all ease 1s;
 }
-.slider-prev{
-    text-align: center;
-    font-family: monospace;
-}
-.slider-next{
+.boxjs{
     text-align: center;
     font-family: monospace;
 }
